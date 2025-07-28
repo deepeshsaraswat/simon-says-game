@@ -4,7 +4,6 @@ let btns=["red", "blue", "purple", "yellow"];
 let started=false;
 let level=0;
 let h2=document.querySelector("h2");
-let timer=10;
 
 
 document.addEventListener("keypress", function() {
@@ -31,7 +30,7 @@ function levelUp(){
     timer=10;
     userseq=[];
     level++
-    h2.innerText=`level ${level} \n Count Down: ${timer}`;
+    h2.innerText=`level ${level} `;
     let randomIndex=Math.floor(Math.random() * 3);
     let randomColor=btns[randomIndex];
     let randombtn=document.querySelector(`.${randomColor}`);
