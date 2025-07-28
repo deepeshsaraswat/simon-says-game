@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to start a Game</h2>
+    <div class="game-container">
+        <div class="line-one">
+            <div class="color-box purple" id="purple"></div>
+            <div class="color-box red" id="red"></div>
+        </div>
+
+        <div class="line-two">
+            <div class="color-box yellow" id="yellow"></div>
+            <div class="color-box blue" id="blue"></div>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <h3>Game Instructions</h3>
+        <p>1. Press any key to start the game.</p>
+        <p>2. Follow the sequence of colors shown by the game.</p>
+        <p>3. Click on the color boxes in the same order to Level Up!</p>
+        <p>4. If you make a mistake, the game will reset.</p>
+        <p>5. Each level will increase the sequence length, you have to enter the previous level sequence in correct order.</p>
+        <p>6. You have 2 seconds to enter the sequence, if you fail, the game will reset.</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

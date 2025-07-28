@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+
+.color-box{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2rem;
+}
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    background-color: rgb(248, 177, 90);
+}
+.blue {
+    background-color: rgb(4, 124, 183);
+} 
+.red {
+    background-color: rgb(192, 78, 78);
+}
+.purple {
+    background-color: rgb(141, 74, 173);
+}
+.gameflash{
+    background-color: white;;
+}
+.userflash{
+    background-color: rgb(67, 255, 20);
+}
+.instructions {
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+}
